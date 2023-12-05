@@ -2,7 +2,12 @@
 ---
 @import "minima";
 
-.post-content p img {
+img, video {
+	max-width: 100%;
+}
+
+.post-content p img,
+.post-content video {
     display: block;
     margin: auto;
 }
